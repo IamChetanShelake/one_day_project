@@ -305,7 +305,7 @@
                     <div class="about-right-container">
                         <div class="common-title">
                             <h5>Why This Cause Matters</h5>
-                            <h2>Supporting Ratnakukshi Families is the Highest Form of Shasan Bhakti</h2>
+                            <h4>Supporting Ratnakukshi Families is the Highest Form of Shasan Bhakti</h4>
                         </div>
                         <p>The divine renunciation of Sadhus and Sadhvis is made possible by the immense sacrifice of their
                             families. Serving these families is not charity—it is devotion.</p>
