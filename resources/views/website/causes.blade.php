@@ -19,8 +19,8 @@
     </section>
     <!-- common banner -->
 
-     <!-- causes -->
-     <section class="causes causes-page">
+    <!-- causes -->
+    <section class="causes causes-page">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4">
@@ -28,8 +28,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-01.jpg') }}" alt="img"></a>
-                                <div class="header-link-btn"><a href="{{ route('causes.details') }}" class="btn-1">Education<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-01.jpg') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes.details') }}"
+                                        class="btn-1">Education<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -44,10 +46,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,8 +58,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-02.jpg') }}" alt="img"></a>
-                            <div class="header-link-btn"><a href="{{ route('causes.details') }}" class="btn-1">Medical<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-02.jpg') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes.details') }}"
+                                        class="btn-1">Medical<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -72,10 +76,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -84,8 +88,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-03.jpg') }}" alt="img"></a>
-                            <div class="header-link-btn"><a href="{{ route('causes.details') }}" class="btn-1">Residence<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-03.jpg') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes.details') }}"
+                                        class="btn-1">Residence<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -100,10 +106,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,8 +118,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-07.png') }}" alt="img"></a>
-                                <div class="header-link-btn"><a href="{{ route('causes.details') }}" class="btn-1">Education<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-07.png') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes.details') }}"
+                                        class="btn-1">Education<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -128,10 +136,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,8 +148,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-08.png') }}" alt="img"></a>
-                            <div class="header-link-btn"><a href="{{ route('causes.details') }}" class="btn-1">Medical<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-08.png') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes.details') }}"
+                                        class="btn-1">Medical<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -156,10 +166,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,8 +178,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-09.png') }}" alt="img"></a>
-                            <div class="header-link-btn"><a href="{{ route('causes.details') }}" class="btn-1">Residence<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-09.png') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes.details') }}"
+                                        class="btn-1">Residence<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -184,10 +196,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -209,7 +221,7 @@
     <!-- news-letter -->
     <section class="news_letter">
         <div class="auto_container">
-            <div class="news_letter_content">
+            {{-- <div class="news_letter_content">
                 <div class="row">
                     <div class="col-xl-6 col-lg-12">
                         <div class="news_letter_left p_relative">
@@ -223,10 +235,12 @@
                             <div class="form-inner p_relative">
                                 <form action="{{ route('home') }}" method="post" class="subscribe-form">
                                     <div class="form-group">
-                                        <input type="email" name="email" placeholder="Your mail address" required="">
+                                        <input type="email" name="email" placeholder="Your mail address"
+                                            required="">
                                         <div class="news-form-btn">
                                             <button type="submit" class="news_letter_btn"></button>
-                                            <a href="javascript:void(0);" class="btn-1 btn-alt">Subscribe <span></span></a>
+                                            <a href="javascript:void(0);" class="btn-1 btn-alt">Subscribe
+                                                <span></span></a>
                                         </div>
                                     </div>
                                 </form>
@@ -234,7 +248,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
     <!-- news-letter-end -->
