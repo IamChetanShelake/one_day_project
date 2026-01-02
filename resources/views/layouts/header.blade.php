@@ -1,3 +1,64 @@
+<style>
+    /* ===== HEADER MENU STYLE (MATCH IMAGE) ===== */
+
+    .main-header .navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-header .navigation>li {
+        position: relative;
+        padding: 0 0px;
+    }
+
+    .main-header .logo-box .logo img {
+        width: 159px;
+        height: 145px;
+    }
+
+    .main-header .logo-box .logo,
+    .main-header .sticky-header .logo-box .logo {
+        padding: 0px;
+    }
+
+
+    .main-header .navigation>li>a {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #6b6b6b;
+        padding: 0;
+    }
+
+    .main-header .navigation>li.current>a,
+    .main-header .navigation>li>a:hover {
+        color: #7a1f1f;
+    }
+
+    /* ===== LOGIN BUTTON ===== */
+
+    .header__right__button .btn-1 {
+        background: #7a1f1f;
+        color: #fff;
+        border-radius: 10px;
+        padding: 10px 26px;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 1.1);
+    }
+
+    .header__right__button .btn-1:hover {
+        background: #611818;
+    }
+
+    /* ===== BOTTOM BORDER ===== */
+
+    .header_bottom {
+        border-bottom: 3px solid #1e73be;
+    }
+</style>
 <!-- preloader -->
 <div class="loader-wrap">
     <div class="preloader">
@@ -20,7 +81,7 @@
     <div class="header-lower">
 
         <!-- header-top -->
-        <div class="header_top">
+        {{-- <div class="header_top">
             <div class="auto_container">
                 <div class="header_top_left">
                     <ul class="top_left">
@@ -40,15 +101,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- header-top -->
 
         <div class="header_bottom p_relative">
             <div class="logo__shape"></div>
-            <div class="auto_container">
+            <div class="auto_container" style="max-width:1370px;">
                 <div class="outer-box">
-                    <div class="logo-box">
-                        <figure class="logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo.png') }}" alt=""></a></figure>
+                    <div class="logo-box" style="padding: 0px 35px 0px 0px;">
+                        <figure class="logo"><a href="{{ route('home') }}"><img
+                                    src="{{ asset('assets/images/ratnakukshi_logo.png') }}" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <!--Mobile Navigation Toggler-->
@@ -60,58 +122,25 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="{{ route('home') }}" class="active">Home</a>
-                                        <ul>
-                                            <li><a href="{{ route('home') }}" class="active">Home One</a></li>
-                                            <li><a href="{{ route('home2') }}">Home Two</a></li>
-                                            <li><a href="{{ route('home3') }}">Home Three</a></li>
-                                        </ul>
+                                    <li class="{{ request()->routeIs('home') ? 'current' : '' }}">
+                                        <a href="{{ route('home') }}"
+                                            class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
                                     </li>
-                                    <li><a href="{{ route('about') }}">About</a></li>
-                                    <li class="dropdown"><a href="{{ route('causes') }}">Causes</a>
-                                        <ul>
-                                            <li><a href="{{ route('causes') }}" >Causes</a></li>
-                                            <li><a href="{{ route('causes.details') }}">Cause Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Pages</a>
-                                        <ul>
-                                            <li class="dropdown"><a href="#">Events</a>
-                                                <ul>
-                                                    <li><a href="{{ route('events') }}">Events</a></li>
-                                                    <li><a href="{{ route('events.carousel') }}">Events Carousel</a></li>
-                                                    <li><a href="{{ route('events.details') }}">Event Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="#">Team</a>
-                                                <ul>
-                                                    <li><a href="{{ route('team') }}">Team</a></li>
-                                                    <li><a href="{{ route('team2') }}">Become A Volunteer</a></li>
-                                                    <li><a href="{{ route('team3') }}">Volunteer Details </a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
-                                            <li><a href="{{ route('faq') }}">FAQs</a></li>
-                                            <li><a href="{{ route('error') }}">404 Error</a></li>
-                                            <li><a href="{{ route('gallery') }}">Our Gallery</a></li>
-                                            <li><a href="{{ route('donate') }}">Donate</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="{{ route('blog.grid') }}">Blog</a>
-                                        <ul>
-                                            <li><a href="{{ route('blog.grid') }}">Blog Grid</a></li>
-                                            <li><a href="{{ route('blog.carousel') }}">Blog Carousel</a></li>
-                                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="{{ route('contact') }}"> Contact </a></li>
+                                    <li class="{{ request()->routeIs('about') ? 'current' : '' }}"><a
+                                            href="{{ route('about') }}"
+                                            class="{{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li>
+                                    <li><a href="#">OUR INITIATIVE</a></li>
+                                    <li><a href="#">DONOR</a></li>
+                                    <li><a href="#">TRUSTEES</a></li>
+                                    <li><a href="{{ route('faq') }}">FAQ</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                     <div class="header__right">
                         <div class="header__right__button">
-                            <div class="header-link-btn"><a href="{{ route('donate') }}" target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a></div>
+                            <div class="header-link-btn"><a href="{{ route('donate') }}" target="_blank"
+                                    class="btn-1 btn-alt">CONTACT US <span></span></a></div>
                         </div>
                     </div>
                 </div>
@@ -121,15 +150,22 @@
 
     <!--sticky Header-->
     <div class="sticky-header">
-        <div class="auto_container">
+        <div class="auto_container" style="max-width:1370px;">
             <div class="outer-box">
-                <div class="logo-box">
-                    <figure class="logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo.png') }}" alt=""></a></figure>
+                <div class="logo-box" style="padding: 0px 35px 0px 0px;">
+                    <figure class="logo"><a href="{{ route('home') }}"><img
+                                src="{{ asset('assets/images/ratnakukshi_logo.png') }}" alt=""></a></figure>
                 </div>
                 <div class="menu-area">
                     <nav class="main-menu clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
                     </nav>
+                </div>
+                <div class="header__right">
+                    <div class="header__right__button">
+                        <div class="header-link-btn"><a href="#" target="_blank" class="btn-1 btn-alt">CONTACT
+                                US<span></span></a></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -142,7 +178,8 @@
     <div class="menu-backdrop"></div>
     <div class="close-btn"><i class="fas fa-times"></i></div>
     <nav class="menu-box">
-        <div class="nav-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo.png') }}" alt="logo"></a></div>
+        <div class="nav-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo.png') }}"
+                    alt="logo"></a></div>
         <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript--></div>
         <div class="contact-info">
             <h4>Contact Info</h4>
