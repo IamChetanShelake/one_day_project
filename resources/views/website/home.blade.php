@@ -5,7 +5,7 @@
 @section('content')
     <!-- banner section starts -->
     <section class="banner">
-        <div class="banner-image"  style="background-image: url('{{ asset('assets/images/shape/shape-01.png') }}');">
+        <div class="banner-image" style="background-image: url('{{ asset('assets/images/shape/shape-01.png') }}');">
 
             <div class="banner-carousel owl-theme owl-carousel">
                 <div class="slide-item">
@@ -16,12 +16,18 @@
                                     <div class="banner-content">
                                         <div class="banner-content-wrapper">
                                             <div class="banner-content-wrapper-inner">
-                                                <h4>Always donate for children's</h4>
-                                                <h2>A world with <br> no street children</h2>
-                                                <p>Only when the society comes together and contributes ,we will be <br> able to make an impact.</p>
+                                                <h4>Supporting the Roots of Renunciation</h4>
+                                                <h2>A sacred initiative dedicated to the families of Jain Sadhus and Sadhvis
+                                                </h2>
+                                                <p>Ratnakukshi Bhakti Foundation serves the families who have selflessly
+                                                    offered their children to the Jain Shasan, ensuring dignity, care, and
+                                                    long-term support.
+                                                </p>
                                                 <div class="btn-group">
-                                                    <div class="header-link-btn"><a href="{{ route('blog.details') }}" class="btn-1"> Discover more<span></span></a></div>
-                                                    <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-2"> Contact Us<span></span></a></div>
+                                                    <div class="header-link-btn"><a href="" class="btn-1"> Support
+                                                            the Cause<span></span></a></div>
+                                                    <div class="header-link-btn"><a href="" class="btn-1 btn-2">
+                                                            Learn More<span></span></a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -32,7 +38,8 @@
                             <div class="col-lg-5">
                                 <div class="banner-right-content">
                                     <div class="banner-right-image">
-                                        <img src="{{ asset('assets/images/banner/banner-right-image.png') }}" alt="banner-two-image">
+                                        <img src="{{ asset('assets/images/banner/banner-right-image.png') }}"
+                                            alt="banner-two-image">
                                     </div>
                                     <div class="border-image">
                                         <img src="{{ asset('assets/images/shape/border-image.png') }}" alt="border">
@@ -50,12 +57,18 @@
                                     <div class="banner-content">
                                         <div class="banner-content-wrapper">
                                             <div class="banner-content-wrapper-inner">
-                                                <h4>Always donate for children's</h4>
-                                                <h2>No homeless children</h2>
-                                                <p>Only when the society comes together and contributes ,we will be <br> able to make an impact.</p>
+                                                <h4>Shasan Bhakti Through Compassionate Service</h4>
+                                                <h2>When a Sadhu renounces the world, a family also embraces sacrifice
+                                                </h2>
+                                                <p>We honor this sacrifice by providing need-based support in food, health,
+                                                    education, housing, and livelihood—delivered with respect and
+                                                    transparency.</p>
                                                 <div class="btn-group">
-                                                    <div class="header-link-btn"><a href="{{ route('blog.details') }}" class="btn-1"> Discover more<span></span></a></div>
-                                                    <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-2"> Contact Us<span></span></a></div>
+                                                    <div class="header-link-btn"><a href="" class="btn-1"> Join the
+                                                            Initiative<span></span></a></div>
+                                                    <div class="header-link-btn"><a href="" class="btn-1 btn-2"> Our
+                                                            Mission
+                                                            <span></span></a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -66,7 +79,8 @@
                             <div class="col-lg-5">
                                 <div class="banner-right-content">
                                     <div class="banner-right-image">
-                                        <img src="{{ asset('assets/images/banner/banner-right-image-02.png') }}" alt="banner-two-image">
+                                        <img src="{{ asset('assets/images/banner/banner-right-image-02.png') }}"
+                                            alt="banner-two-image">
                                     </div>
                                     <div class="border-image">
                                         <img src="{{ asset('assets/images/shape/border-image.png') }}" alt="border">
@@ -84,12 +98,19 @@
                                     <div class="banner-content">
                                         <div class="banner-content-wrapper">
                                             <div class="banner-content-wrapper-inner">
-                                                <h4>Always donate for children's</h4>
-                                                <h2>A world without squatters</h2>
-                                                <p>Only when the society comes together and contributes ,we will be <br> able to make an impact.</p>
+                                                <h4>Building a Sustainable Path of Devotion
+                                                </h4>
+                                                <h2>Spiritual Family Support
+                                                </h2>
+                                                <p>Ratnakukshi Bhakti Foundation provides dignified, need-based support to
+                                                    families devoted to the Jain Shasan.
+                                                </p>
                                                 <div class="btn-group">
-                                                    <div class="header-link-btn"><a href="{{ route('blog.details') }}" class="btn-1"> Discover more<span></span></a></div>
-                                                    <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-2"> Contact Us<span></span></a></div>
+                                                    <div class="header-link-btn"><a href="" class="btn-1">
+                                                            Contribute Now<span></span></a></div>
+                                                    <div class="header-link-btn"><a href="" class="btn-1 btn-2"> How
+                                                            We Work
+                                                            <span></span></a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -100,7 +121,8 @@
                             <div class="col-lg-5">
                                 <div class="banner-right-content">
                                     <div class="banner-right-image">
-                                        <img src="{{ asset('assets/images/banner/banner-right-image-03.png') }}" alt="banner-two-image">
+                                        <img src="{{ asset('assets/images/banner/banner-right-image-03.png') }}"
+                                            alt="banner-two-image">
                                     </div>
                                     <div class="border-image">
                                         <img src="{{ asset('assets/images/shape/border-image.png') }}" alt="border">
@@ -167,14 +189,16 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6">
-                            <div class="service-container wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="service-container wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
                                 <div class="service-container-overlay"></div>
                                 <div class="service-number">
                                     <span>03</span>
                                 </div>
                                 <div class="service-container-inner">
                                     <div class="service-image">
-                                        <img src="{{ asset('assets/images/icons/service-shape-03.png') }}" alt="icon">
+                                        <img src="{{ asset('assets/images/icons/service-shape-03.png') }}"
+                                            alt="icon">
                                     </div>
                                     <div class="service-icon">
                                         <span class="icon-service-icon-03"></span>
@@ -185,14 +209,16 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6">
-                            <div class="service-container wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
+                            <div class="service-container wow fadeInUp" data-wow-delay="900ms"
+                                data-wow-duration="1500ms">
                                 <div class="service-container-overlay"></div>
                                 <div class="service-number">
                                     <span>04</span>
                                 </div>
                                 <div class="service-container-inner">
                                     <div class="service-image">
-                                        <img src="{{ asset('assets/images/icons/service-shape-04.png') }}" alt="icon">
+                                        <img src="{{ asset('assets/images/icons/service-shape-04.png') }}"
+                                            alt="icon">
                                     </div>
                                     <div class="service-icon">
                                         <span class="icon-service-icon-04"></span>
@@ -218,12 +244,12 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-left-container">
-                        <div class="about-blank paroller"  style="transform: translateY(-11px);"></div>
+                        <div class="about-blank paroller" style="transform: translateY(-11px);"></div>
                         <div class="about-image-1 wow fadeInUp">
                             <img src="{{ asset('assets/images/gallery/about-image-01.jpg') }}" alt="image">
                         </div>
-                        <div  class="about-image-2 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                            <img src="{{ asset('assets/images/gallery/about-image-02.jpg') }}" alt="image" >
+                        <div class="about-image-2 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                            <img src="{{ asset('assets/images/gallery/about-image-02.jpg') }}" alt="image">
                         </div>
                         <div class="about-left-intro paroller" style="transform: translateY(-11px);">
                             <div class="about-left-intro-inner">
@@ -259,7 +285,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header-link-btn"><a href="{{ route('about') }}" class="btn-1">Learn More<span></span></a></div>
+                        <div class="header-link-btn"><a href="{{ route('about') }}" class="btn-1">Learn
+                                More<span></span></a></div>
                     </div>
                 </div>
             </div>
@@ -282,12 +309,14 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-01.jpg') }}" alt="img"></a>
-                                <div class="header-link-btn"><a href="{{ route('causes') }}" class="btn-1">Education<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-01.jpg') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes') }}"
+                                        class="btn-1">Education<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
-                            <a href="{{ route('causes.details') }}" >Ensure Clean Water To The stn Afri. can Kids.</a>
+                            <a href="{{ route('causes.details') }}">Ensure Clean Water To The stn Afri. can Kids.</a>
                             <p>There are many of lorem, but majori have suffered alteration in some form.</p>
                         </div>
                         <div class="causes-bar">
@@ -298,10 +327,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -310,8 +339,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-02.jpg') }}" alt="img"></a>
-                                <div class="header-link-btn"><a href="{{ route('causes') }}" class="btn-1">Medical<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-02.jpg') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes') }}"
+                                        class="btn-1">Medical<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -326,10 +357,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -338,8 +369,10 @@
                         <div class="causes-image-container">
                             <div class="causes-image-overlay wow"></div>
                             <div class="causes-image">
-                                <a href="{{ route('causes.details') }}"><img src="{{ asset('assets/images/gallery/causes-03.jpg') }}" alt="img"></a>
-                                <div class="header-link-btn"><a href="{{ route('causes') }}" class="btn-1">Residence<span></span></a></div>
+                                <a href="{{ route('causes.details') }}"><img
+                                        src="{{ asset('assets/images/gallery/causes-03.jpg') }}" alt="img"></a>
+                                <div class="header-link-btn"><a href="{{ route('causes') }}"
+                                        class="btn-1">Residence<span></span></a></div>
                             </div>
                         </div>
                         <div class="causes-content">
@@ -354,10 +387,10 @@
                                     </div>
                                 </div>
                             </div>
-                           <div class="causes-bar-info">
-                            <p><span>$25,270</span> Raised</p>
-                            <p><span>$30,000</span> Goal</p>
-                           </div>
+                            <div class="causes-bar-info">
+                                <p><span>$25,270</span> Raised</p>
+                                <p><span>$30,000</span> Goal</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -373,7 +406,8 @@
                 <div class="col-xl-12">
                     <div class="call-title">
                         <h2>Join the community to give <br> education for children</h2>
-                        <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-2">Join Our Community<span></span></a></div>
+                        <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-2">Join Our
+                                Community<span></span></a></div>
                     </div>
                 </div>
             </div>
@@ -444,14 +478,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="header-link-btn"><a href="{{ route('donate') }}" class="btn-1">Donate Now<span></span></a></div>
+                    <div class="header-link-btn"><a href="{{ route('donate') }}" class="btn-1">Donate
+                            Now<span></span></a></div>
                 </div>
 
                 <div class="col-xl-4">
                     <div class="mission-video-image">
                         <img src="{{ asset('assets/images/gallery/mission-video-image.jpg') }}" alt="img">
                         <div class="missiom-video-btn">
-                            <a href="https://www.youtube.com/watch?v=kS0X-yIsB64" target="_blank" class="hv-popup-link"><i class="fas fa-play"></i></a>
+                            <a href="https://www.youtube.com/watch?v=kS0X-yIsB64" target="_blank"
+                                class="hv-popup-link"><i class="fas fa-play"></i></a>
                         </div>
                         <div class="mission-video-text">
                             <h2>Watch Video</h2>
@@ -466,7 +502,8 @@
     <!-- fun fact -->
     <div class="fun-fact">
         <div class="container">
-            <div class="fun-fact-container" style="background-image: url('{{ asset('assets/images/background/fun-fact-bg-image.jpg') }}');">
+            <div class="fun-fact-container"
+                style="background-image: url('{{ asset('assets/images/background/fun-fact-bg-image.jpg') }}');">
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="funfact-block-two">
@@ -621,7 +658,8 @@
                     </div>
                 </div>
                 <div class="col-xl-12 text-center">
-                    <div class="header-link-btn"><a href="{{ route('team') }}" class="btn-1">View All Team<span></span></a></div>
+                    <div class="header-link-btn"><a href="{{ route('team') }}" class="btn-1">View All
+                            Team<span></span></a></div>
                 </div>
             </div>
         </div>
@@ -671,7 +709,8 @@
                 </div>
             </div>
         </div>
-        <div class="pattern-layer" style="background-image: url('{{ asset('assets/images/shape/shape-02.png') }}');"></div>
+        <div class="pattern-layer" style="background-image: url('{{ asset('assets/images/shape/shape-02.png') }}');">
+        </div>
         <div class="testimonial-container">
             <div class="container">
                 <div class="row">
@@ -702,10 +741,13 @@
                         <div class="testimonials-carousel owl-carousel owl-theme">
                             <div class="tesstimonial-right-content">
                                 <div class="testimonial-content-text">
-                                    <p>There are many variations of nostrud passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised enim veli amet.</p>
+                                    <p>There are many variations of nostrud passages of Lorem Ipsum available, but the
+                                        majority have suffered alteration in some form, by injected humour, or randomised
+                                        enim veli amet.</p>
                                     <div class="testimonial-right-content-wrapper">
                                         <div class="testimonial-right-wrapper-inner">
-                                            <img src="{{ asset('assets/images/gallery/testimonial-image-07.png') }}" alt="image">
+                                            <img src="{{ asset('assets/images/gallery/testimonial-image-07.png') }}"
+                                                alt="image">
                                             <div class="testimonial-info">
                                                 <h6>Annette Black</h6>
                                                 <span>Volunteers</span>
@@ -719,10 +761,13 @@
                             </div>
                             <div class="tesstimonial-right-content">
                                 <div class="testimonial-content-text">
-                                    <p>There are many variations of nostrud passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised enim veli amet.</p>
+                                    <p>There are many variations of nostrud passages of Lorem Ipsum available, but the
+                                        majority have suffered alteration in some form, by injected humour, or randomised
+                                        enim veli amet.</p>
                                     <div class="testimonial-right-content-wrapper">
                                         <div class="testimonial-right-wrapper-inner">
-                                            <img src="{{ asset('assets/images/gallery/testimonial-06.png') }}" alt="image">
+                                            <img src="{{ asset('assets/images/gallery/testimonial-06.png') }}"
+                                                alt="image">
                                             <div class="testimonial-info">
                                                 <h6>Donald Vaucher</h6>
                                                 <span>Volunteers</span>
@@ -743,16 +788,20 @@
     <!-- testimonial -->
 
     <!-- contact -->
-    <section class="home-contact" style="background-image: url('{{ asset('assets/images/background/home-contact-bg.png') }}');">
+    <section class="home-contact"
+        style="background-image: url('{{ asset('assets/images/background/home-contact-bg.png') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="call-title ">
                         <h2>How Can You Help?</h2>
-                        <p>Your donation will help us save and improve lives with research, education and emergency care.</p>
+                        <p>Your donation will help us save and improve lives with research, education and emergency care.
+                        </p>
                         <div class="btn-group">
-                            <div class="header-link-btn"><a href="{{ route('donate') }}" class="btn-1">Donate Now<span></span></a></div>
-                            <div class="header-link-btn"><a href="{{ route('blog.details') }}" class="btn-1 btn-2">Discover more<span></span></a></div>
+                            <div class="header-link-btn"><a href="{{ route('donate') }}" class="btn-1">Donate
+                                    Now<span></span></a></div>
+                            <div class="header-link-btn"><a href="{{ route('blog.details') }}"
+                                    class="btn-1 btn-2">Discover more<span></span></a></div>
                         </div>
                     </div>
                 </div>
@@ -778,39 +827,43 @@
                             <img src="{{ asset('assets/images/gallery/blog-01.png') }}" alt="img">
                         </a>
                         <div class="blog-contant">
-                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1">20 Feb 2022<span></span></a></div>
+                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1">20 Feb
+                                    2022<span></span></a></div>
                             <div class="comments">
                                 <ul>
                                     <li><i class="flaticon-user"></i> <span> Admin</span></li>
                                     <li><i class="flaticon-bubble-chat"></i> <span> Comment</span></li>
                                 </ul>
                             </div>
-                            <a href="{{ route('blog.details') }}" class="hover-content">How does the malnution affect children?</a>
+                            <a href="{{ route('blog.details') }}" class="hover-content">How does the malnution affect
+                                children?</a>
                             <p>Aellentesque porttitor lacus quis enim varius sed efficitur...</p>
                         </div>
                         <div class="blog-btn">
-                          <a href="{{ route('blog.details') }}">Read More <i class="flaticon-arrow-right"></i></a>
+                            <a href="{{ route('blog.details') }}">Read More <i class="flaticon-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4">
-                    <div class="causes-card wow fadeInUp"  data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="causes-card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <a href="{{ route('blog.details') }}" class="causes-image blog-image">
                             <img src="{{ asset('assets/images/gallery/blog-02.png') }}" alt="img">
                         </a>
                         <div class="blog-contant">
-                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1">20 Feb 2022<span></span></a></div>
+                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1">20 Feb
+                                    2022<span></span></a></div>
                             <div class="comments">
                                 <ul>
                                     <li><i class="flaticon-user"></i> <span> Admin</span></li>
                                     <li><i class="flaticon-bubble-chat"></i> <span> Comment</span></li>
                                 </ul>
                             </div>
-                            <a href="{{ route('blog.details') }}" class="hover-content">Our 10 Favourite Climate Strike protest signs</a>
+                            <a href="{{ route('blog.details') }}" class="hover-content">Our 10 Favourite Climate Strike
+                                protest signs</a>
                             <p>Aellentesque porttitor lacus quis enim varius sed efficitur...</p>
                         </div>
                         <div class="blog-btn">
-                          <a href="{{ route('blog.details') }}">Read More <i class="flaticon-arrow-right"></i></a>
+                            <a href="{{ route('blog.details') }}">Read More <i class="flaticon-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -820,18 +873,20 @@
                             <img src="{{ asset('assets/images/gallery/blog-03.png') }}" alt="img">
                         </a>
                         <div class="blog-contant">
-                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1">20 Feb 2022<span></span></a></div>
+                            <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1">20 Feb
+                                    2022<span></span></a></div>
                             <div class="comments">
                                 <ul>
                                     <li><i class="flaticon-user"></i> <span> Admin</span></li>
                                     <li><i class="flaticon-bubble-chat"></i> <span> Comment</span></li>
                                 </ul>
                             </div>
-                            <a href="{{ route('blog.details') }}" class="hover-content">There are many variations of passages of Lorem</a>
+                            <a href="{{ route('blog.details') }}" class="hover-content">There are many variations of
+                                passages of Lorem</a>
                             <p>Aellentesque porttitor lacus quis enim varius sed efficitur...</p>
                         </div>
                         <div class="blog-btn">
-                          <a href="{{ route('blog.details') }}">Read More <i class="flaticon-arrow-right"></i></a>
+                            <a href="{{ route('blog.details') }}">Read More <i class="flaticon-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -842,7 +897,9 @@
 
     <!-- map -->
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d48474.64872611011!2d-75.5188393826804!3d40.59313733852438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4140%20Parker%20Rd.%20Allentown%2C%20New%20Mexico!5e0!3m2!1sen!2sbd!4v1676449615021!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d48474.64872611011!2d-75.5188393826804!3d40.59313733852438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4140%20Parker%20Rd.%20Allentown%2C%20New%20Mexico!5e0!3m2!1sen!2sbd!4v1676449615021!5m2!1sen!2sbd"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <!-- map -->
 @endsection
