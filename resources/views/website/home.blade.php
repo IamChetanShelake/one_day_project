@@ -40,8 +40,7 @@
                             <div class="col-lg-5">
                                 <div class="banner-right-content">
                                     <div class="banner-right-image">
-                                        <img src="{{ asset('assets/images/banner/banner-right-image.png') }}"
-                                            alt="banner-two-image">
+                                        <img src="{{ asset('assets/images/baner1.jpeg') }}" alt="banner-two-image">
                                     </div>
                                     <div class="border-image">
                                         <img src="{{ asset('assets/images/shape/border-image.png') }}" alt="border">
@@ -83,8 +82,7 @@
                             <div class="col-lg-5">
                                 <div class="banner-right-content">
                                     <div class="banner-right-image">
-                                        <img src="{{ asset('assets/images/banner/banner-right-image-02.png') }}"
-                                            alt="banner-two-image">
+                                        <img src="{{ asset('assets/images/baner2.jpeg') }}" alt="banner-two-image">
                                     </div>
                                     <div class="border-image">
                                         <img src="{{ asset('assets/images/shape/border-image.png') }}" alt="border">
@@ -125,8 +123,7 @@
                             <div class="col-lg-5">
                                 <div class="banner-right-content">
                                     <div class="banner-right-image">
-                                        <img src="{{ asset('assets/images/banner/banner-right-image-03.png') }}"
-                                            alt="banner-two-image">
+                                        <img src="{{ asset('assets/images/baner3.jpeg') }}" alt="banner-two-image">
                                     </div>
                                     <div class="border-image">
                                         <img src="{{ asset('assets/images/shape/border-image.png') }}" alt="border">
@@ -606,13 +603,25 @@
     <!-- our mission -->
 
     <!-- fun fact -->
+<<<<<<< HEAD
     <div class="common-title">
         <h5>Our Plan / Initiative Section</h5>
         <h3>The Ratnakukshi Bhakti Initiative</h3>
+=======
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="align-title">
+                    <h5>Our Plan / Initiative Section</h5>
+                    <h3>The Ratnakukshi Bhakti Initiative</h3>
+                </div>
+            </div>
+        </div>
+>>>>>>> priyanka
     </div>
 
     <div class="fun-fact">
-        <div class="container" style="margin-top: 100px;">
+        <div class="container" style="margin-top: 60px;">
             <div class="fun-fact-container"
                 style="background-image: url('{{ asset('assets/images/background/fun-fact-bg-image.jpg') }}');">
                 <div class="row">
