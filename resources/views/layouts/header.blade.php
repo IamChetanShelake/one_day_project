@@ -144,14 +144,14 @@
                                     <li><a href="#">OUR INITIATIVE</a></li>
                                     <li><a href="#">DONOR</a></li>
                                     <li><a href="#">TRUSTEES</a></li>
-                                    <li><a href="{{ route('faq') }}">FAQ</a></li>
+                                    <li><a href="#">FAQ</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                     <div class="header__right">
                         <div class="header__right__button">
-                            <div class="header-link-btn"><a href="{{ route('donate') }}" target="_blank"
+                            <div class="header-link-btn"><a href="#" target="_blank"
                                     class="btn-1 btn-alt">CONTACT US <span></span></a></div>
                         </div>
                     </div>

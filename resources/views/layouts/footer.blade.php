@@ -69,9 +69,9 @@
                                 <div class="widget_content">
                                     <ul class="links_list clearfix">
                                         <li><a href="{{ route('about') }}">About Us</a></li>
-                                        <li><a href="{{ route('causes') }}">Causes</a></li>
-                                        <li><a href="{{ route('team') }}">Our Team</a></li>
-                                        <li><a href="{{ route('events.details') }}">Latest News</a></li>
+                                        <li><a href="#">Causes</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Latest News</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -83,10 +83,10 @@
                                 </div>
                                 <div class="widget_content">
                                     <ul class="links_list clearfix">
-                                        <li><a href="{{ route('events') }}">Education</a></li>
-                                        <li><a href="{{ route('causes') }}">Food Donation</a></li>
-                                        <li><a href="{{ route('team') }}">Medical Help</a></li>
-                                        <li><a href="{{ route('events.carousel') }}">Technology</a></li>
+                                        <li><a href="#">Education</a></li>
+                                        <li><a href="#">Food Donation</a></li>
+                                        <li><a href="#">Medical Help</a></li>
+                                        <li><a href="#">Technology</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                         {{-- <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208)
                                                 555-0112</a></li> --}}
                                         <li>
-                                            <div class="header-link-btn footer-donate"><a href="{{ route('donate') }}"
+                                            <div class="header-link-btn footer-donate"><a href="#"
                                                     target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a>
                                             </div>
                                         </li>
