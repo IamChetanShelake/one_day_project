@@ -502,7 +502,7 @@
                 <div class="col-xl-12">
                     <div class="call-title">
                         <h2>Join the community to give <br> education for children</h2>
-                        <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-2">Join Our
+                        <div class="header-link-btn"><a href="#" class="btn-1 btn-2">Join Our
                                 Community<span></span></a></div>
                     </div>
                 </div>
@@ -585,7 +585,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="header-link-btn"><a href="{{ route('donate') }}" class="btn-1">Donate
+                    <div class="header-link-btn"><a href="#" class="btn-1">Donate
                             Now<span></span></a></div>
                 </div>
 
@@ -620,177 +620,177 @@
 
     </div>
 
-        <div class="fun-fact">
-            <div class="container" style="margin-top: 60px;">
-                <div class="fun-fact-container"
-                    style="background-image: url('{{ asset('assets/images/background/fun-fact-bg-image.jpg') }}');">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                            <div class="funfact-block-two">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="icon-21"></i></div>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="1500" data-stop="125">0</span>
-                                        <p>Crores</p>
-                                    </div>
-                                    <p>Target Corpus</p>
+    <div class="fun-fact">
+        <div class="container" style="margin-top: 60px;">
+            <div class="fun-fact-container"
+                style="background-image: url('{{ asset('assets/images/background/fun-fact-bg-image.jpg') }}');">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="funfact-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-21"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="125">0</span>
+                                    <p>Crores</p>
                                 </div>
+                                <p>Target Corpus</p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                            <div class="funfact-block-two">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="icon-21"></i></div>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="1500" data-stop="108">0</span>
-                                        <p>Crores</p>
-                                    </div>
-                                    <p>200 Trusts totaling</p>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="funfact-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-21"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="108">0</span>
+                                    <p>Crores</p>
                                 </div>
+                                <p>200 Trusts totaling</p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                            <div class="funfact-block-two">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="icon-21"></i></div>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="1500" data-stop="27">0</span>
-                                        <p>Lakhs annually for 4 years</p>
-                                    </div>
-                                    <p>Contribution Plan</p>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="funfact-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-21"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="27">0</span>
+                                    <p>Lakhs annually for 4 years</p>
                                 </div>
+                                <p>Contribution Plan</p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                            <div class="funfact-block-two">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="icon-21"></i></div>
-                                    <div class="count-outer count-box">
-                                        <p class="count-text" data-speed="1500">Utilization</p>
-                                    </div>
-                                    <p>Assistance provided from interest earned on the corpus</p>
-                                    {{-- <p>Happy Volunteers</p> --}}
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="funfact-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-21"></i></div>
+                                <div class="count-outer count-box">
+                                    <p class="count-text" data-speed="1500">Utilization</p>
                                 </div>
+                                <p>Assistance provided from interest earned on the corpus</p>
+                                {{-- <p>Happy Volunteers</p> --}}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- fun fact -->
+    </div>
+    <!-- fun fact -->
 
-        <!-- team starts -->
-        <section class="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="align-title">
-                            <h5>Our BOD</h5>
-                            <h3>Meet Our Expert BOD</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
-                        <div class="team-content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="team-content-wrapper">
-                                <div class="team-image">
-                                    <img src="{{ asset('assets/images/team/SUKHRAJ NAHAR.jpg') }}" alt="image">
-                                    <div class="team-media">
-                                        <ul>
-                                            <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-share">
-                                    <a href="#"><i class="flaticon-share"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-info">
-                                <a href="{{ route('team3') }}">Sukhrajji Nahar</a>
-                                {{-- <span>BOD</span> --}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
-                        <div class="team-content wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="team-content-wrapper">
-                                <div class="team-image">
-                                    <img src="{{ asset('assets/images/team/HITESH DOSHI.jpg') }}" alt="image">
-                                    <div class="team-media">
-                                        <ul>
-                                            <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-share">
-                                    <a href="#"><i class="flaticon-share"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-info">
-                                <a href="{{ route('team3') }}">Hiteshji Doshi</a>
-                                {{-- <span>BOD</span> --}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
-                        <div class="team-content wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
-                            <div class="team-content-wrapper">
-                                <div class="team-image">
-                                    <img src="{{ asset('assets/images/team/MANOJ MEHTA.jpeg') }}" alt="image">
-                                    <div class="team-media">
-                                        <ul>
-                                            <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-share">
-                                    <a href="#"><i class="flaticon-share"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-info">
-                                <a href="{{ route('team3') }}">Manojji Mehta</a>
-                                {{-- <span>BOD</span> --}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
-                        <div class="team-content wow fadeInUp" data-wow-delay="1200ms" data-wow-duration="1500ms">
-                            <div class="team-content-wrapper">
-                                <div class="team-image">
-                                    <img src="{{ asset('assets/images/team/Prithviraj Kothari.jpg') }}" alt="image">
-                                    <div class="team-media">
-                                        <ul>
-                                            <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-share">
-                                    <a href="#"><i class="flaticon-share"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-info">
-                                <a href="{{ route('team3') }}">Prithvirajji Kothari</a>
-                                {{-- <span>BOD</span> --}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12 text-center">
-                        <div class="header-link-btn"><a href="{{ route('team') }}" class="btn-1">View All
-                                Team<span></span></a></div>
+    <!-- team starts -->
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="align-title">
+                        <h5>Our BOD</h5>
+                        <h3>Meet Our Expert BOD</h3>
                     </div>
                 </div>
+                <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
+                    <div class="team-content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="team-content-wrapper">
+                            <div class="team-image">
+                                <img src="{{ asset('assets/images/team/SUKHRAJ NAHAR.jpg') }}" alt="image">
+                                <div class="team-media">
+                                    <ul>
+                                        <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-share">
+                                <a href="#"><i class="flaticon-share"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <a href="{{ route('team3') }}">Sukhrajji Nahar</a>
+                            {{-- <span>BOD</span> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
+                    <div class="team-content wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="team-content-wrapper">
+                            <div class="team-image">
+                                <img src="{{ asset('assets/images/team/HITESH DOSHI.jpg') }}" alt="image">
+                                <div class="team-media">
+                                    <ul>
+                                        <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-share">
+                                <a href="#"><i class="flaticon-share"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <a href="{{ route('team3') }}">Hiteshji Doshi</a>
+                            {{-- <span>BOD</span> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
+                    <div class="team-content wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
+                        <div class="team-content-wrapper">
+                            <div class="team-image">
+                                <img src="{{ asset('assets/images/team/MANOJ_MEHTA.jpeg') }}" alt="image">
+                                <div class="team-media">
+                                    <ul>
+                                        <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-share">
+                                <a href="#"><i class="flaticon-share"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <a href="{{ route('team3') }}">Manojji Mehta</a>
+                            {{-- <span>BOD</span> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 d-flex justify-content-center">
+                    <div class="team-content wow fadeInUp" data-wow-delay="1200ms" data-wow-duration="1500ms">
+                        <div class="team-content-wrapper">
+                            <div class="team-image">
+                                <img src="{{ asset('assets/images/team/Prithviraj Kothari.jpg') }}" alt="image">
+                                <div class="team-media">
+                                    <ul>
+                                        <li><a href="#0"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
+                                        <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-share">
+                                <a href="#"><i class="flaticon-share"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <a href="{{ route('team3') }}">Prithvirajji Kothari</a>
+                            {{-- <span>BOD</span> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 text-center">
+                    <div class="header-link-btn"><a href="#" class="btn-1">View All
+                            Team<span></span></a></div>
+                </div>
             </div>
-        </section>
-        <!-- team ends -->
+        </div>
+    </section>
+    <!-- team ends -->
 
-        {{-- <!-- sponsor -->
+    {{-- <!-- sponsor -->
     <div class="sponsor">
         <div class="container">
             <div class="row">
@@ -821,83 +821,80 @@
     </div>
     <!-- sponsor --> --}}
 
-        <!-- testimonial -->
-        <section class="testimonial">
+    <!-- testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="align-title">
+                        <h5>Testimonials</h5>
+                        <h3>What Our Donor Says</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pattern-layer" style="background-image: url('{{ asset('assets/images/shape/shape-02.png') }}');">
+        </div>
+        <div class="testimonial-container">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
-                        <div class="align-title">
-                            <h5>Testimonials</h5>
-                            <h3>What People Say About Us</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pattern-layer" style="background-image: url('{{ asset('assets/images/shape/shape-02.png') }}');">
-            </div>
-            <div class="testimonial-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="testimonial-image-container">
-                                <div class="testimonial-image-one">
-                                    <img src="{{ asset('assets/images/team/VIJAY_BHANDARI.png') }}" alt="photo">
-                                </div>
-                                <div class="testimonial-image-two">
-                                    <img src="{{ asset('assets/images/team/Pradeep_Singhi.jpg') }}" alt="photo">
-                                </div>
-                                <div class="testimonial-image-three">
-                                    <img src="{{ asset('assets/images/team/RAJESH_CHANDAN.jpeg') }}" alt="photo">
-                                </div>
-                                <div class="testimonial-image-four">
-                                    <img src="{{ asset('assets/images/team/SHEETAL_DUGAR1.png') }}" alt="photo">
-                                </div>
-                                <div class="testimonial-image-five">
-                                    <img src="{{ asset('assets/images/team/Sunil_Kathotia.jpg') }}" alt="photo">
-                                </div>
-                                <div class="testimonial-image-six">
-                                    <img src="{{ asset('assets/images/team/1409_UTTAM_JAIN.jpg') }}" alt="photo">
-                                </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="testimonial-image-container">
+                            <div class="testimonial-image-one">
+                                <img src="{{ asset('assets/images/team/VIJAY_BHANDARI.png') }}" alt="photo">
+                            </div>
+                            <div class="testimonial-image-two">
+                                <img src="{{ asset('assets/images/team/Pradeep_Singhi.jpg') }}" alt="photo">
+                            </div>
+                            <div class="testimonial-image-three">
+                                <img src="{{ asset('assets/images/team/RAJESH_CHANDAN.jpeg') }}" alt="photo">
+                            </div>
+                            <div class="testimonial-image-four">
+                                <img src="{{ asset('assets/images/team/SHEETAL_DUGAR1.png') }}" alt="photo">
+                            </div>
+                            <div class="testimonial-image-five">
+                                <img src="{{ asset('assets/images/team/Sunil_Kathotia.jpg') }}" alt="photo">
+                            </div>
+                            <div class="testimonial-image-six">
+                                <img src="{{ asset('assets/images/team/1409_UTTAM_JAIN.jpg') }}" alt="photo">
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-xl-6 col-lg-6 d-flex align-items-center">
-                            <div class="testimonials-carousel owl-carousel owl-theme">
-                                <div class="tesstimonial-right-content">
-                                    <div class="testimonial-content-text">
-                                        <p>“Serving Ratnakukshi families is not just service—it is devotion.”</p>
-                                        <div class="testimonial-right-content-wrapper">
-                                            <div class="testimonial-right-wrapper-inner">
-                                                {{-- <img src="{{ asset('assets/images/gallery/testimonial-image-07.png') }}"
+                    <div class="col-xl-6 col-lg-6 d-flex align-items-center">
+                        <div class="testimonials-carousel owl-carousel owl-theme">
+                            <div class="tesstimonial-right-content">
+                                <div class="testimonial-content-text">
+                                    <p>“Serving Ratnakukshi families is not just service—it is devotion.”</p>
+                                    <div class="testimonial-right-content-wrapper">
+                                        <div class="testimonial-right-wrapper-inner">
+                                            {{-- <img src="{{ asset('assets/images/gallery/testimonial-image-07.png') }}"
                                                     alt="image"> --}}
-                                                <div class="testimonial-info">
-                                                    <h6>Foundation Trustee</h6>
-                                                    {{-- <span>Volunteers</span> --}}
-                                                </div>
+                                            <div class="testimonial-info">
+                                                <h6>Foundation Trustee</h6>
+                                                {{-- <span>Volunteers</span> --}}
                                             </div>
-                                            <div class="quait">
-                                                <img src="{{ asset('assets/images/shape/quote-01.png') }}"
-                                                    alt="quite">
-                                            </div>
+                                        </div>
+                                        <div class="quait">
+                                            <img src="{{ asset('assets/images/shape/quote-01.png') }}" alt="quite">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tesstimonial-right-content">
-                                    <div class="testimonial-content-text">
-                                        <p>“A transparent and spiritually aligned initiative for true Shasan Bhakti.”</p>
-                                        <div class="testimonial-right-content-wrapper">
-                                            <div class="testimonial-right-wrapper-inner">
-                                                {{-- <img src="{{ asset('assets/images/gallery/testimonial-06.png') }}"
+                            </div>
+                            <div class="tesstimonial-right-content">
+                                <div class="testimonial-content-text">
+                                    <p>“A transparent and spiritually aligned initiative for true Shasan Bhakti.”</p>
+                                    <div class="testimonial-right-content-wrapper">
+                                        <div class="testimonial-right-wrapper-inner">
+                                            {{-- <img src="{{ asset('assets/images/gallery/testimonial-06.png') }}"
                                                     alt="image"> --}}
-                                                <div class="testimonial-info">
-                                                    <h6>Well-wisher</h6>
-                                                    {{-- <span>Volunteers</span> --}}
-                                                </div>
+                                            <div class="testimonial-info">
+                                                <h6>Well-wisher</h6>
+                                                {{-- <span>Volunteers</span> --}}
                                             </div>
-                                            <div class="quait">
-                                                <img src="{{ asset('assets/images/shape/quote-01.png') }}"
-                                                    alt="quite">
-                                            </div>
+                                        </div>
+                                        <div class="quait">
+                                            <img src="{{ asset('assets/images/shape/quote-01.png') }}" alt="quite">
                                         </div>
                                     </div>
                                 </div>
@@ -906,10 +903,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- testimonial -->
+        </div>
+    </section>
+    <!-- testimonial -->
 
-        {{-- <!-- contact -->
+    {{-- <!-- contact -->
     <section class="home-contact"
         style="background-image: url('{{ asset('assets/images/background/home-contact-bg.png') }}');">
         <div class="container">
