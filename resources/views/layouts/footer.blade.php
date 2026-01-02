@@ -42,14 +42,13 @@
                             <div class="footer_widget left">
                                 <div class="footer__logo">
                                     <figure>
-                                        <img src="{{ asset('assets/images/footer-logo.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/ratnakukshi_logo.png') }}" alt="">
                                     </figure>
                                 </div>
                                 <div class="widget_content">
                                     <p>
-                                        Lorem ipsum dolor rtame consect
-                                        pisicing sed do eiusmod tempor
-                                        incididunt ut labore.
+                                        Ratnakukshi Bhakti Foundation is a spiritual and social initiative rooted in
+                                        Jain values.
                                     </p>
                                 </div>
                                 <div class="widget_media">
@@ -99,11 +98,15 @@
                                 </div>
                                 <div class="widget_content">
                                     <ul class="links_list right">
-                                        <li>4140 Parker Rd. Allentown, New Mexico</li>
-                                        <li><a href="mailto:jennings@example.com"><i class="flaticon-email"></i>
-                                                jennings@example.com</a></li>
-                                        <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208)
-                                                555-0112</a></li>
+                                        <li> <b>Ratnakukshi Bhakti Foundation</b> Shop No. 2, 11th Floor, A-wing, Oberoi
+                                            Garden City,
+                                            International Business Park, Goregaon East,
+                                            Mumbai – 400063
+                                        </li>
+                                        <li><a href="info@ratnakukshi.org"><i class="flaticon-email"></i>
+                                                info@ratnakukshi.org</a></li>
+                                        {{-- <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208)
+                                                555-0112</a></li> --}}
                                         <li>
                                             <div class="header-link-btn footer-donate"><a href="{{ route('donate') }}"
                                                     target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a>

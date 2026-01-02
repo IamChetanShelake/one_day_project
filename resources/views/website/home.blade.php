@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Save Us - Home')
+@section('title', 'Ratnakukshi - Home')
 
 @section('content')
     <!-- banner section starts -->
@@ -424,8 +424,8 @@
             <div class="row">
                 <div class="col-xl-8">
                     <div class="common-title">
-                        <h5>Our Mission & Goals</h5>
-                        <h3>Protect People Pets and <br> the Planet</h3>
+                        <h5>Our Core Values (Why Choose Us)</h5>
+                        {{-- <h3>Protect People Pets and <br> the Planet</h3> --}}
                     </div>
                     <div class="mission-container">
                         <div class="mission-shape">
@@ -438,8 +438,8 @@
                                         <img src="{{ asset('assets/images/icons/mission-icon-01.png') }}" alt="icon">
                                     </div>
                                     <div class="mossion-info">
-                                        <h5>Volunteering</h5>
-                                        <p>Turpis egestas maecenas convallis posuere morbi</p>
+                                        <h6>Complete Confidentiality</h6>
+                                        {{-- <p>Turpis egestas maecenas convallis posuere morbi</p> --}}
                                     </div>
                                 </div>
                             </div>
@@ -449,8 +449,8 @@
                                         <img src="{{ asset('assets/images/icons/mission-icon-02.png') }}" alt="icon">
                                     </div>
                                     <div class="mossion-info">
-                                        <h5>Medical help</h5>
-                                        <p>Turpis egestas maecenas convallis posuere morbi</p>
+                                        <h6>Full Transparency</h6>
+                                        {{-- <p>Turpis egestas maecenas convallis posuere morbi</p> --}}
                                     </div>
                                 </div>
                             </div>
@@ -460,8 +460,8 @@
                                         <img src="{{ asset('assets/images/icons/mission-icon-03.png') }}" alt="icon">
                                     </div>
                                     <div class="mossion-info">
-                                        <h5>Education</h5>
-                                        <p>Turpis egestas maecenas convallis posuere morbi</p>
+                                        <h6>Long-Term Vision & Planning</h6>
+                                        {{-- <p>Turpis egestas maecenas convallis posuere morbi</p> --}}
                                     </div>
                                 </div>
                             </div>
@@ -471,8 +471,19 @@
                                         <img src="{{ asset('assets/images/icons/mission-icon-04.png') }}" alt="icon">
                                     </div>
                                     <div class="mossion-info">
-                                        <h5>Food donation</h5>
-                                        <p>Turpis egestas maecenas convallis posuere morbi</p>
+                                        <h6>Direct & Respectful Service</h6>
+                                        {{-- <p>Turpis egestas maecenas convallis posuere morbi</p> --}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="mission-contant wow fadeInUp">
+                                    <div class="mission-icon">
+                                        <img src="{{ asset('assets/images/icons/mission-icon-04.png') }}" alt="icon">
+                                    </div>
+                                    <div class="mossion-info">
+                                        <h6>Value-Based, Non-Commercial Approach</h6>
+                                        {{-- <p>Turpis egestas maecenas convallis posuere morbi</p> --}}
                                     </div>
                                 </div>
                             </div>
@@ -500,6 +511,7 @@
     <!-- our mission -->
 
     <!-- fun fact -->
+    
     <div class="fun-fact">
         <div class="container">
             <div class="fun-fact-container"
@@ -510,9 +522,10 @@
                             <div class="inner-box">
                                 <div class="icon-box"><i class="icon-21"></i></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="458">0</span><span>+</span>
+                                    <span class="count-text" data-speed="1500" data-stop="125">0</span>
+                                    <p>Crores</p>
                                 </div>
-                                <p>Total Campaigns</p>
+                                <p>Target Corpus</p>
                             </div>
                         </div>
                     </div>
@@ -521,9 +534,10 @@
                             <div class="inner-box">
                                 <div class="icon-box"><i class="icon-21"></i></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="425">0</span><span>+</span>
+                                    <span class="count-text" data-speed="1500" data-stop="108">0</span>
+                                    <p>Crores</p>
                                 </div>
-                                <p>Raised Funds</p>
+                                <p>200 Trusts totaling</p>
                             </div>
                         </div>
                     </div>
@@ -532,9 +546,10 @@
                             <div class="inner-box">
                                 <div class="icon-box"><i class="icon-21"></i></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="548">0</span><span>+</span>
+                                    <span class="count-text" data-speed="1500" data-stop="27">0</span>
+                                    <p>Lakhs annually for 4 years</p>
                                 </div>
-                                <p>Satisfied Donors</p>
+                                <p>Contribution Plan</p>
                             </div>
                         </div>
                     </div>
@@ -543,9 +558,10 @@
                             <div class="inner-box">
                                 <div class="icon-box"><i class="icon-21"></i></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="808">0</span><span>+</span>
+                                    <p class="count-text" data-speed="1500">Utilization</p>
                                 </div>
-                                <p>Happy Volunteers</p>
+                                <p>Assistance provided from interest earned on the corpus</p>
+                                {{-- <p>Happy Volunteers</p> --}}
                             </div>
                         </div>
                     </div>

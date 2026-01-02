@@ -17,13 +17,15 @@
     }
 
     .main-header.style-one .logo__shape {
-        background: rgba(220, 155, 85, 0.13);
+        /* background: rgba(220, 155, 85, 0.13); */
+        background-image: url('{{ asset('assets/images/shape/logo-shape-1.png') }}');
 
     }
 
     .main-header.style-one .logo__shape ::after {
-        background: rgba(220, 155, 85, 0.13) !important;
-
+        /* background: rgba(220, 155, 85, 0.13) !important; */
+        display: none;
+        background: none: !important;
     }
 
     .main-header .logo-box .logo,
