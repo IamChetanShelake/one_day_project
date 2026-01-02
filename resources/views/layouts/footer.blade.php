@@ -1,5 +1,5 @@
 <!-- news-letter -->
-<section class="news_letter">
+{{-- <section class="news_letter">
     <div class="auto_container">
         <div class="news_letter_content">
             <div class="row">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- news-letter-end -->
 
 <!-- main-footer -->
