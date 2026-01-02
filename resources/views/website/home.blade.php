@@ -288,7 +288,8 @@
                     <div class="about-left-container">
                         <div class="about-blank paroller" style="transform: translateY(-11px);"></div>
                         <div class="about-image-1 wow fadeInUp">
-                            <img src="{{ asset('assets/images/gallery/about-image-01.jpg') }}" alt="image">
+                            <img src="{{ asset('assets/images/WhatsApp_Image_2026-01-02_at_6.16.33_PM.jpeg') }}"
+                                alt="image">
                         </div>
                         <div class="about-image-2 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                             <img src="{{ asset('assets/images/gallery/about-image-02.jpg') }}" alt="image">
@@ -555,9 +556,12 @@
     <!-- our mission -->
 
     <!-- fun fact -->
-    
+    <div class="common-title">
+        <h5>Our Plan / Initiative Section</h5>
+        <h3>The Ratnakukshi Bhakti Initiative</h3>
+    </div>
     <div class="fun-fact">
-        <div class="container">
+        <div class="container" style="margin-top: 100px;">
             <div class="fun-fact-container"
                 style="background-image: url('{{ asset('assets/images/background/fun-fact-bg-image.jpg') }}');">
                 <div class="row">
