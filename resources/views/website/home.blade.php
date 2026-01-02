@@ -339,11 +339,10 @@
                     <div class="about-left-container">
                         <div class="about-blank paroller" style="transform: translateY(-11px);"></div>
                         <div class="about-image-1 wow fadeInUp">
-                            <img src="{{ asset('assets/images/WhatsApp_Image_2026-01-02_at_6.16.33_PM.jpeg') }}"
-                                alt="image">
+                            <img src="{{ asset('assets/images/image22.jpeg') }}" alt="image">
                         </div>
                         <div class="about-image-2 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                            <img src="{{ asset('assets/images/gallery/about-image-02.jpg') }}" alt="image">
+                            <img src="{{ asset('assets/images/image21.jpeg') }}" alt="image">
                         </div>
                         <div class="about-left-intro paroller" style="transform: translateY(-11px);">
                             <div class="about-left-intro-inner">
@@ -511,7 +510,7 @@
     </section>
     <!-- call to action -->
 
-    <!-- our mission -->
+    <!-- our our -->
     <section class="mission">
         <div class="vector-two">
             <img src="{{ asset('assets/images/shape/vector-02.png') }}" alt="img">
@@ -591,10 +590,10 @@
 
                 <div class="col-xl-4">
                     <div class="mission-video-image">
-                        <img src="{{ asset('assets/images/gallery/mission-video-image.jpg') }}" alt="img">
+                        <img src="{{ asset('assets/images/image20.jpeg') }}" alt="img">
                         <div class="missiom-video-btn">
-                            <a href="https://www.youtube.com/watch?v=kS0X-yIsB64" target="_blank"
-                                class="hv-popup-link"><i class="fas fa-play"></i></a>
+                            {{-- <a href="https://www.youtube.com/watch?v=kS0X-yIsB64" target="_blank"
+                                class="hv-popup-link"><i class="fas fa-play"></i></a> --}}
                         </div>
                         <div class="mission-video-text">
                             <h2>Watch Video</h2>
@@ -607,14 +606,11 @@
     <!-- our mission -->
 
     <!-- fun fact -->
-<<<<<<< HEAD
     <div class="common-title">
         <h5>Our Plan / Initiative Section</h5>
         <h3>The Ratnakukshi Bhakti Initiative</h3>
     </div>
-=======
 
->>>>>>> priyanka
     <div class="fun-fact">
         <div class="container" style="margin-top: 100px;">
             <div class="fun-fact-container"
@@ -861,7 +857,8 @@
                             <div class="tesstimonial-right-content">
                                 <div class="testimonial-content-text">
                                     <p>There are many variations of nostrud passages of Lorem Ipsum available, but the
-                                        majority have suffered alteration in some form, by injected humour, or randomised
+                                        majority have suffered alteration in some form, by injected humour, or
+                                        randomised
                                         enim veli amet.</p>
                                     <div class="testimonial-right-content-wrapper">
                                         <div class="testimonial-right-wrapper-inner">
@@ -881,7 +878,8 @@
                             <div class="tesstimonial-right-content">
                                 <div class="testimonial-content-text">
                                     <p>There are many variations of nostrud passages of Lorem Ipsum available, but the
-                                        majority have suffered alteration in some form, by injected humour, or randomised
+                                        majority have suffered alteration in some form, by injected humour, or
+                                        randomised
                                         enim veli amet.</p>
                                     <div class="testimonial-right-content-wrapper">
                                         <div class="testimonial-right-wrapper-inner">

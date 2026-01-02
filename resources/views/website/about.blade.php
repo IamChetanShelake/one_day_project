@@ -29,13 +29,13 @@
                 <div class="col-xl-6">
                     <div class="about-left-container">
                         <div class="home-two-about-image-top paroller" style="transform: translateY(11px);">
-                            <img src="{{ asset('assets/images/gallery/home-two-about-top.png') }}" alt="image">
+                            {{-- <img src="{{ asset('assets/images/image18.jpeg') }}" alt="image"> --}}
                         </div>
                         <div class="about-image-1 wow fadeInUp">
-                            <img src="{{ asset('assets/images/gallery/home-two-about-image.png') }}" alt="image">
+                            <img src="{{ asset('assets/images/image19.jpeg') }}" alt="image">
                         </div>
                         <div class="home-two-about-image-bottom paroller" style="transform: translateY(-11px);">
-                            <img src="{{ asset('assets/images/gallery/home-two-about-bottom.png') }}" alt="image">
+                            {{-- <img src="{{ asset('assets/images/image17.jpeg') }}" alt="image"> --}}
                         </div>
                     </div>
                 </div>
