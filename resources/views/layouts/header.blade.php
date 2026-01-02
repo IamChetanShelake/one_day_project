@@ -13,7 +13,17 @@
 
     .main-header .logo-box .logo img {
         width: 159px;
-        height: 145px;
+        height: 130px;
+    }
+
+    .main-header.style-one .logo__shape {
+        background: rgba(220, 155, 85, 0.13);
+
+    }
+
+    .main-header.style-one .logo__shape ::after {
+        background: rgba(220, 155, 85, 0.13) !important;
+
     }
 
     .main-header .logo-box .logo,
@@ -39,7 +49,7 @@
     /* ===== LOGIN BUTTON ===== */
 
     .header__right__button .btn-1 {
-        background: #7a1f1f;
+        background: var(--theme-color);
         color: #fff;
         border-radius: 10px;
         padding: 10px 26px;
@@ -68,7 +78,7 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                <h2>Save Us</h2>
+                <h3 style="color:white;">ratnakukshi</h3>
             </div>
         </div>
     </div>

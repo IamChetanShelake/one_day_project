@@ -100,9 +100,15 @@
                                 <div class="widget_content">
                                     <ul class="links_list right">
                                         <li>4140 Parker Rd. Allentown, New Mexico</li>
-                                        <li><a href="mailto:jennings@example.com"><i class="flaticon-email"></i> jennings@example.com</a></li>
-                                        <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208) 555-0112</a></li>
-                                        <li><div class="header-link-btn footer-donate"><a href="{{ route('donate') }}" target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a></div></li>
+                                        <li><a href="mailto:jennings@example.com"><i class="flaticon-email"></i>
+                                                jennings@example.com</a></li>
+                                        <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208)
+                                                555-0112</a></li>
+                                        <li>
+                                            <div class="header-link-btn footer-donate"><a href="{{ route('donate') }}"
+                                                    target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -115,7 +121,9 @@
     <div class="footer_bottom p_relative">
         <div class="auto_container">
             <div class="bottom_inner  p_relative">
-                <div class="copyright"><p> SaveUs © {{ date('Y') }}. All Rights Reserved.</p></div>
+                <div class="copyright">
+                    <p> Ratnakukshi Trust © {{ date('Y') }}. All Rights Reserved.</p>
+                </div>
             </div>
         </div>
     </div>
