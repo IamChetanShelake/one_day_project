@@ -17,8 +17,10 @@
                                         <div class="banner-content-wrapper">
                                             <div class="banner-content-wrapper-inner">
                                                 <h4>Supporting the Roots of Renunciation</h4>
-                                                <h2>A sacred initiative dedicated to the families of Jain Sadhus and Sadhvis
-                                                </h2>
+                                                {{-- <h2>A sacred initiative dedicated to the families of Jain Sadhus and Sadhvis
+                                                </h2> --}}
+                                                {{-- <h2>A Sacred Initiative for Jain Sadhu–Sadhvi Families</h2> --}}
+                                                <h2>Serving Jain Sadhu–Sadhvi Families</h2>
                                                 <p>Ratnakukshi Bhakti Foundation serves the families who have selflessly
                                                     offered their children to the Jain Shasan, ensuring dignity, care, and
                                                     long-term support.
@@ -58,7 +60,9 @@
                                         <div class="banner-content-wrapper">
                                             <div class="banner-content-wrapper-inner">
                                                 <h4>Shasan Bhakti Through Compassionate Service</h4>
-                                                <h2>When a Sadhu renounces the world, a family also embraces sacrifice
+                                                {{-- <h2>When a Sadhu renounces the world, a family also embraces sacrifice
+                                                </h2> --}}
+                                                <h2>Renunciation Shared by the Family
                                                 </h2>
                                                 <p>We honor this sacrifice by providing need-based support in food, health,
                                                     education, housing, and livelihood—delivered with respect and
@@ -144,7 +148,7 @@
                 <div class="col-xl-12">
                     <div class="align-title">
                         <h5>What we do</h5>
-                        <h3>Education Make a Life for <br> Poor Children!</h3>
+                        <h3>How We Support Ratnakukshi Families</h3>
                         <div class="title-shape">
                             <img src="{{ asset('assets/images/shape/service-title-shape.png') }}" alt="map">
                         </div>
@@ -152,7 +156,7 @@
                 </div>
                 <div class="service-content-wrapper">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="col-xl-2 col-lg-6 col-md-6 offset-xl-1">
                             <div class="service-container wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="service-container-overlay"></div>
                                 <div class="service-number">
@@ -165,12 +169,30 @@
                                     <div class="service-icon">
                                         <span class="icon-service-icon-01"></span>
                                     </div>
-                                    <h5>Support</h5>
-                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p>
+                                    <h5> Food & Nutrition Support</h5>
+                                    {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="col-xl-2 col-lg-6 col-md-6">
+                            <div class="service-container wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
+                                <div class="service-container-overlay"></div>
+                                <div class="service-number">
+                                    <span>02</span>
+                                </div>
+                                <div class="service-container-inner">
+                                    <div class="service-image">
+                                        <img src="{{ asset('assets/images/icons/service-shape-04.png') }}" alt="icon">
+                                    </div>
+                                    <div class="service-icon">
+                                        <span class="icon-service-icon-04"></span>
+                                    </div>
+                                    <h5>Healthcare & Emergency Aid</h5>
+                                    {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="col-xl-2 col-lg-6 col-md-6">
                             <div class="service-container wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="service-container-overlay service-container-overlay-active"></div>
                                 <div class="service-number">
@@ -187,8 +209,8 @@
                                     <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        </div> --}}
+                        <div class="col-xl-2 col-lg-6 col-md-6">
                             <div class="service-container wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="service-container-overlay"></div>
@@ -203,12 +225,13 @@
                                     <div class="service-icon">
                                         <span class="icon-service-icon-03"></span>
                                     </div>
-                                    <h5>Volunteers</h5>
-                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p>
+                                    <h5>Education Assistance
+                                    </h5>
+                                    {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="col-xl-2 col-lg-6 col-md-6">
                             <div class="service-container wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="service-container-overlay"></div>
@@ -223,8 +246,27 @@
                                     <div class="service-icon">
                                         <span class="icon-service-icon-04"></span>
                                     </div>
-                                    <h5>Donations</h5>
-                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p>
+                                    <h5> Housing Support</h5>
+                                    {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-6 col-md-6">
+                            <div class="service-container wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div class="service-container-overlay"></div>
+                                <div class="service-number">
+                                    <span>05</span>
+                                </div>
+                                <div class="service-container-inner">
+                                    <div class="service-image">
+                                        <img src="{{ asset('assets/images/icons/service-shape-01.png') }}"
+                                            alt="shape">
+                                    </div>
+                                    <div class="service-icon">
+                                        <span class="icon-service-icon-01"></span>
+                                    </div>
+                                    <h5> Employment & Livelihood Opportunities</h5>
+                                    {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
                         </div>
@@ -262,11 +304,13 @@
                 <div class="col-xl-6">
                     <div class="about-right-container">
                         <div class="common-title">
-                            <h5>Welcome to SaveUs charity</h5>
-                            <h3>We’re non-profit charity & NGO organization</h3>
+                            <h5>Why This Cause Matters</h5>
+                            <h2>Supporting Ratnakukshi Families is the Highest Form of Shasan Bhakti</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
-                            eiusmodtempor incididunt ut labore et simply free text dolore magna aliqua lonm andhn.</p>
+                        <p>The divine renunciation of Sadhus and Sadhvis is made possible by the immense sacrifice of their
+                            families. Serving these families is not charity—it is devotion.</p>
+                        <p>Ratnakukshi Bhakti Foundation ensures that no family is left unsupported while their loved ones
+                            serve humanity selflessly.</p>
                         <div class="about-progress">
                             <div id="skills-section">
                                 <h5>Charity</h5>
