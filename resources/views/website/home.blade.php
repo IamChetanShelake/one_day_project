@@ -20,8 +20,10 @@
                                                 {{-- <h2>A sacred initiative dedicated to the families of Jain Sadhus and Sadhvis
                                                 </h2> --}}
                                                 {{-- <h2>A Sacred Initiative for Jain Sadhu–Sadhvi Families</h2> --}}
-                                                <h2>Serving Jain Sadhu–Sadhvi Families</h2>
-                                                <p>Ratnakukshi Bhakti Foundation serves the families who have selflessly
+                                                <h2 style="font-size:50px !important;">Serving Jain Sadhu–Sadhvi Families
+                                                </h2>
+                                                <p style="font-weight:300 !important;">Ratnakukshi Bhakti Foundation serves
+                                                    the families who have selflessly
                                                     offered their children to the Jain Shasan, ensuring dignity, care, and
                                                     long-term support.
                                                 </p>
@@ -61,9 +63,10 @@
                                                 <h4>Shasan Bhakti Through Compassionate Service</h4>
                                                 {{-- <h2>When a Sadhu renounces the world, a family also embraces sacrifice
                                                 </h2> --}}
-                                                <h2>Renunciation Shared by the Family
+                                                <h2 style="font-size:50px !important;">Renunciation Shared by the Family
                                                 </h2>
-                                                <p>We honor this sacrifice by providing need-based support in food, health,
+                                                <p style="font-weight:300 !important;">We honor this sacrifice by providing
+                                                    need-based support in food, health,
                                                     education, housing, and livelihood—delivered with respect and
                                                     transparency.</p>
                                                 <div class="btn-group">
@@ -102,9 +105,10 @@
                                             <div class="banner-content-wrapper-inner">
                                                 <h4>Building a Sustainable Path of Devotion
                                                 </h4>
-                                                <h2>Spiritual Family Support
+                                                <h2 style="font-size:50px !important;">Spiritual Family Support
                                                 </h2>
-                                                <p>Ratnakukshi Bhakti Foundation provides dignified, need-based support to
+                                                <p style="font-weight:300 !important;">Ratnakukshi Bhakti Foundation
+                                                    provides dignified, need-based support to
                                                     families devoted to the Jain Shasan.
                                                 </p>
                                                 <div class="btn-group">
@@ -172,7 +176,7 @@
                                         </svg>
 
                                     </div>
-                                    <h5> Food & Nutrition Support</h5>
+                                    <h5 style="font-size:25px !important;"> Food & Nutrition Support</h5>
                                     {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
@@ -201,7 +205,7 @@
                                         </svg>
 
                                     </div>
-                                    <h5>Healthcare & Emergency Aid</h5>
+                                    <h5 style="font-size:25px !important;">Healthcare & Emergency Aid</h5>
                                     {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
@@ -255,7 +259,7 @@
                                         </svg>
 
                                     </div>
-                                    <h5>Education Assistance
+                                    <h5 style="font-size:25px !important;">Education Assistance
                                     </h5>
                                     {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
@@ -285,7 +289,7 @@
                                         </svg>
 
                                     </div>
-                                    <h5> Employment & Livelihood Opportunities</h5>
+                                    <h5 style="font-size:25px !important;"> Employment & Livelihood Opportunities</h5>
                                     {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
@@ -312,7 +316,7 @@
                                         </svg>
 
                                     </div>
-                                    <h5> Housing Support</h5>
+                                    <h5 style="font-size:25px !important;"> Housing Support</h5>
                                     {{-- <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p> --}}
                                 </div>
                             </div>
@@ -341,10 +345,10 @@
                         <div class="about-image-2 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                             <img src="{{ asset('assets/images/image21.jpeg') }}" alt="image">
                         </div>
-                        <div class="about-left-intro paroller" style="transform: translateY(-11px);">
+                        <div class="about-left-intro paroller" style="transform: translateY(-11px);background:#883333;">
                             <div class="about-left-intro-inner">
-                                <h5>280k</h5>
-                                <p>We’ve helped our poor children</p>
+                                <h5>1k</h5>
+                                <p>We’ve helped sadharmic family</p>
                             </div>
                         </div>
                     </div>
@@ -359,7 +363,7 @@
                             families. Serving these families is not charity—it is devotion.</p>
                         <p>Ratnakukshi Bhakti Foundation ensures that no family is left unsupported while their loved ones
                             serve humanity selflessly.</p>
-                        <div class="about-progress">
+                        {{-- <div class="about-progress">
                             <div id="skills-section">
                                 <h5>Charity</h5>
                                 <div class="progress">
@@ -376,7 +380,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="header-link-btn"><a href="{{ route('about') }}" class="btn-1">Learn
                                 More<span></span></a></div>
                     </div>
@@ -386,7 +390,7 @@
     </section>
     <!-- about -->
 
-    <!-- causes -->
+    {{-- <!-- causes -->
     <section class="causes">
         <div class="container">
             <div class="row">
@@ -489,10 +493,10 @@
             </div>
         </div>
     </section>
-    <!-- causes -->
+    <!-- causes --> --}}
 
     <!-- call to action -->
-    <section class="call" style="background-image: url('{{ asset('assets/images/background/call-image-01.jpg') }}');">
+    <section class="call" style="background-image: url('{{ asset('assets/images/section2.jpeg') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -603,11 +607,7 @@
     <!-- our mission -->
 
     <!-- fun fact -->
-<<<<<<< HEAD
-    <div class="common-title">
-        <h5>Our Plan / Initiative Section</h5>
-        <h3>The Ratnakukshi Bhakti Initiative</h3>
-=======
+
     <div class="container" style="margin-top: 100px;">
         <div class="row">
             <div class="col-xl-12">
@@ -617,7 +617,7 @@
                 </div>
             </div>
         </div>
->>>>>>> priyanka
+
     </div>
 
     <div class="fun-fact">
