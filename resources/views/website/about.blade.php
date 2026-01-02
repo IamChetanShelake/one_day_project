@@ -69,6 +69,32 @@
                                     their well-being while strengthening the spirit of Shasan Bhakti.</p>
                             </div>
 
+                            <div class="common-title mt-4">
+                                <h5>Our Mission</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex align-items-center border-0 px-0">
+                                        <i class="fa fa-check-circle  me-3" style="color: #7a1f1f;"></i>
+                                        <span style="color:#6F7775;">To provide need-based assistance to Sadhu–Sadhvi
+                                            families</span>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center border-0 px-0">
+                                        <i class="fa fa-check-circle  me-3" style="color: #7a1f1f;"></i>
+                                        <span style="color:#6F7775;">To establish a long-term corpus fund for continuous
+                                            support</span>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center border-0 px-0">
+                                        <i class="fa fa-check-circle  me-3" style="color: #7a1f1f;"></i>
+                                        <span style="color:#6F7775;">To deliver aid with confidentiality, respect, and
+                                            transparency</span>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center border-0 px-0">
+                                        <i class="fa fa-check-circle  me-3" style="color: #7a1f1f;"></i>
+                                        <span style="color:#6F7775;">To encourage collective participation in Shasan
+                                            service</span>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -163,7 +189,8 @@
                 </div>
             </div>
         </div>
-        <div class="pattern-layer" style="background-image: url('{{ asset('assets/images/shape/shape-02.png') }}');"></div>
+        <div class="pattern-layer" style="background-image: url('{{ asset('assets/images/shape/shape-02.png') }}');">
+        </div>
         <div class="testimonial-container">
             <div class="container">
                 <div class="row">
