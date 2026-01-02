@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- common banner -->
-    <section class="common-banner" style="background-image: url('{{ asset('assets/images/banner/common-banner-bg.png') }}');">
+    <section class="common-banner" style="background-image: url('{{ asset('assets/images/section2.jpeg') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -102,7 +102,7 @@
         </div>
     </section>
     <!-- about -->
-
+    {{-- <!-- faq -->
     <!-- faq -->
     <section class="faq">
         <div class="faq-left" style="background-image: url('{{ asset('assets/images/gallery/faq1.png') }}');">
@@ -515,5 +515,5 @@
             </div>
         </div>
     </section>
-    <!-- news-letter-end -->
+    <!-- news-letter-end --> --}}
 @endsection
