@@ -108,8 +108,8 @@
                                         {{-- <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208)
                                                 555-0112</a></li> --}}
                                         <li>
-                                            <div class="header-link-btn footer-donate"><a href="#"
-                                                    target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                            <div class="header-link-btn footer-donate"><a href="#" target="_blank"
+                                                    class="btn-1 btn-alt">Donate Now <span></span></a>
                                             </div>
                                         </li>
                                     </ul>
