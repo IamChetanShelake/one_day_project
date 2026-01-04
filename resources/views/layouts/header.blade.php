@@ -70,21 +70,33 @@
     .header_bottom {
         border-bottom: 3px solid #1e73be;
     }
+
+    @media (max-width: 576px) {
+        .main-header .logo-box .logo img {
+            width: 100px;
+            height: 88px;
+        }
+    }
+
+    /* Mobile menu active state */
+    .mobile-menu .navigation li.current>a {
+        color: #7a1f1f !important;
+    }
 </style>
 <!-- preloader -->
-<div class="loader-wrap">
-    <div class="preloader">
-        <div class="preloader-close">x</div>
-        <div id="handle-preloader" class="handle-preloader home-1">
-            <div class="loading">
-                <span></span>
-                <span></span>
-                <span></span>
-                <h3 style="color:white;">ratnakukshi</h3>
-            </div>
-        </div>
-    </div>
-</div>
+<!--<div class="loader-wrap">-->
+<!--    <div class="preloader">-->
+<!--        <div class="preloader-close">x</div>-->
+<!--        <div id="handle-preloader" class="handle-preloader home-1">-->
+<!--            <div class="loading">-->
+<!--                <span></span>-->
+<!--                <span></span>-->
+<!--                <span></span>-->
+<!--                <h3 style="color:white;">ratnakukshi</h3>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 <!-- preloader end -->
 
 <!-- main header -->
@@ -142,17 +154,17 @@
                                             href="{{ route('about') }}"
                                             class="{{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li>
                                     <li><a href="#">OUR INITIATIVE</a></li>
-                                    <li><a href="#">DONOR</a></li>
+                                    <li class="{{ request()->routeIs('donor') ? 'current' : '' }}"><a href="{{ route('donor') }}" class="{{ request()->routeIs('donor') ? 'active' : '' }}">DONOR</a></li>
                                     <li><a href="#">TRUSTEES</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li class="{{ request()->routeIs('faq') ? 'current' : '' }}"><a href="{{ route('faq') }}" class="{{ request()->routeIs('faq') ? 'active' : '' }}">FAQ</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                     <div class="header__right">
                         <div class="header__right__button">
-                            <div class="header-link-btn"><a href="#" target="_blank"
-                                    class="btn-1 btn-alt">CONTACT US <span></span></a></div>
+                            <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-alt">CONTACT
+                                    US <span></span></a></div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +187,7 @@
                 </div>
                 <div class="header__right">
                     <div class="header__right__button">
-                        <div class="header-link-btn"><a href="#" target="_blank" class="btn-1 btn-alt">CONTACT
+                        <div class="header-link-btn"><a href="{{ route('contact') }}" class="btn-1 btn-alt">CONTACT
                                 US<span></span></a></div>
                     </div>
                 </div>
@@ -190,15 +202,19 @@
     <div class="menu-backdrop"></div>
     <div class="close-btn"><i class="fas fa-times"></i></div>
     <nav class="menu-box">
-        <div class="nav-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo.png') }}"
-                    alt="logo"></a></div>
+        <div class="nav-logo"><a href="{{ route('home') }}"><img
+                    src="{{ asset('assets/images/ratnakukshi_logo.png') }}" alt="logo"></a></div>
         <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript--></div>
         <div class="contact-info">
             <h4>Contact Info</h4>
             <ul>
-                <li>Chicago 12, Melborne City, USA</li>
-                <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li>Ratnakukshi Bhakti Foundation
+                    Office Address:
+                    Shop No. 2, 11th Floor, A-wing, Oberoi Garden City,
+                    International Business Park, Goregaon East,
+                    Mumbai – 400063</li>
+                <!--<li><a href="tel:+8801682648101">+88 01682648101</a></li>-->
+                <li><a href="mailto:info@ratnakukshi.org">info@ratnakukshi.org</a></li>
             </ul>
         </div>
         <div class="social-links">

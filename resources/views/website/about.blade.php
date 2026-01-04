@@ -3,8 +3,15 @@
 @section('title', 'About Us - Save Us')
 
 @section('content')
+    <style>
+        @media (max-width: 576px) {
+            .hide-on-mobile {
+                display: none !important;
+            }
+        }
+    </style>
     <!-- common banner -->
-    <section class="common-banner" style="background-image: url('{{ asset('assets/images/section2.jpeg') }}');">
+    <section class="common-banner" style="background-image: url('{{ asset('assets/images/A8.png') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -21,21 +28,24 @@
 
     <!-- about -->
     <section class="about home-two-about">
-        <div class="home-two-about-shape">
+        {{-- <div class="home-two-about-shape">
             <img src="{{ asset('assets/images/shape/home-two-about-shape.png') }}" alt="shape">
-        </div>
+        </div> --}}
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-left-container">
-                        <div class="home-two-about-image-top paroller" style="transform: translateY(11px);">
-                            {{-- <img src="{{ asset('assets/images/image18.jpeg') }}" alt="image"> --}}
+                        <div class="home-two-about-image-top paroller hide-on-mobile" style="transform: translateY(11px);">
+                            <img src="{{ asset('assets/images/Ellipse 70.png') }}" alt="image"
+                                style="weight:200px;height:200px;">
                         </div>
                         <div class="about-image-1 wow fadeInUp">
-                            <img src="{{ asset('assets/images/image19.jpeg') }}" alt="image">
+                            <img src="{{ asset('assets/images/aboutsection (1).png') }}" alt="image">
                         </div>
-                        <div class="home-two-about-image-bottom paroller" style="transform: translateY(-11px);">
-                            {{-- <img src="{{ asset('assets/images/image17.jpeg') }}" alt="image"> --}}
+                        <div class="home-two-about-image-bottom paroller hide-on-mobile"
+                            style="transform: translateY(-11px);">
+                            <img src="{{ asset('assets/images/Ellipse 71.png') }}" alt="image"
+                                style="weight:250px;height:250px;">
                         </div>
                     </div>
                 </div>
@@ -46,21 +56,20 @@
                                 <h5>Get to know about SaveUs</h5>
                                 <h3>Who We Are</h3>
                             </div>
-                            <h6>Ratnakukshi Bhakti Foundation is a spiritual and social initiative rooted in Jain values,
-                                established to serve the families of Sadhus and Sadhvis who have dedicated their lives to
-                                the upliftment of humanity.</h6>
+                            <h6>Rooted in Jain values, Ratnakukshi Bhakti Foundation serves the families of Sadhus and
+                                Sadhvis devoted to humanity.</h6>
                             {{-- <p>Ratnakukshi Bhakti Foundation is a spiritual and social initiative rooted in Jain values,
                                 established to serve the families of Sadhus and Sadhvis who have dedicated their lives to
                                 the upliftment of humanity.</p> --}}
                             <p>
-                                In the Jain Shasan tradition, Sadhus and Sadhvis propagate the timeless teachings of
-                                Tirthankars through renunciation, discipline, and compassion. Today, more than 15,000 Sadhus
-                                and Sadhvis continue this sacred mission, guiding society toward righteousness and spiritual
-                                growth.
+                                In Jain Shasan, Sadhus and Sadhvis uphold the teachings of the Tirthankars through
+                                renunciation and compassion, guiding society toward spiritual growth. Behind every
+                                renunciate stands a family whose silent sacrifice makes this path possible. Ratnakukshi
+                                Bhakti Foundation honors and supports these families with dignity and care.
                             </p>
-                            <p>Behind every renunciate lies a family that has made an extraordinary sacrifice. Our
+                            {{-- <p>Behind every renunciate lies a family that has made an extraordinary sacrifice. Our
                                 foundation recognizes this silent contribution and works to support these families with
-                                respect, dignity, and long-term planning.</p>
+                                respect, dignity, and long-term planning.</p> --}}
                             {{-- <div class="header-link-btn"><a href="{{ route('about') }}" target="_blank"
                                     class="btn-1">Discover more<span></span></a></div> --}}
                             <div class="common-title mt-4">

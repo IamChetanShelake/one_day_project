@@ -35,5 +35,5 @@ Route::get('/testimonials', [WebsiteController::class, 'testimonials'])->name('t
 Route::get('/faq', [WebsiteController::class, 'faq'])->name('faq');
 Route::get('/error', [WebsiteController::class, 'error'])->name('error');
 Route::get('/gallery', [WebsiteController::class, 'gallery'])->name('gallery');
-Route::get('/donate', [WebsiteController::class, 'donate'])->name('donate');
+Route::get('/donor', [WebsiteController::class, 'donor'])->name('donor');
 Route::get('/contact', [WebsiteController::class, 'contact'])->name('contact');

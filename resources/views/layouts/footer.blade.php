@@ -33,7 +33,7 @@
 
 <!-- main-footer -->
 <footer class="main__footer p_relative">
-    <div class="main__footer__top" style="background-image: url('{{ asset('assets/images/shape/shape-01.png') }}');">
+    <div class="main__footer__top" style="background-image: url('{{ asset('assets/images/shape/Group 148.png') }}');">
         <div class="footer__middle  p_relative d_block">
             <div class="auto_container">
                 <div class="footer__middle__content">

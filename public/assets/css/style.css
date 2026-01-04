@@ -258,7 +258,8 @@ header.main-header.style-three .sticky-header .logo-box .logo img {
     bottom: -5px;
     width: 0;
     height: 2px;
-    background: #f65024;
+    /* background: #f65024; */
+    background: #DBA058;
     transition: 0.3s;
 }
 
@@ -1576,7 +1577,7 @@ div#skills-section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 113, 93, 0.5);
+    background: rgb(136, 51, 51, 0.7);
 }
 
 .call-title {
@@ -1856,7 +1857,8 @@ a.hv-popup-link:after {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: rgba(0, 113, 93, 0.3);
+    /* background: rgba(0, 113, 93, 0.3); */
+    background: rgb(136, 51, 51, 0.3);
     transition: 0.5s;
     transform: scale(0);
     z-index: 1;
@@ -1923,7 +1925,7 @@ a.hv-popup-link:after {
 }
 
 .team-media ul li a:hover {
-    background: #f65024;
+    background: #883333;
 }
 
 .team-media ul li a:hover i {
@@ -2766,7 +2768,7 @@ div#offcanvasTop {
     top: 3px;
     width: 8px;
     height: 100%;
-    background-color: #f65024;
+    background-color: #883333;
     border-radius: 20px;
 }
 
@@ -3094,7 +3096,7 @@ button:focus:not(:focus-visible) {
     right: 40px;
     width: 30px;
     height: 30px;
-    background: #f65024;
+    background: #883333;
     border-radius: 50%;
     color: #ffffff;
 }
@@ -4121,7 +4123,7 @@ button:focus:not(:focus-visible) {
 .common-banner-title span {
     font-weight: 400;
     font-size: 22px;
-    color: #f65024;
+    color: #DBA058;
 }
 
 /* banner */
@@ -4659,7 +4661,7 @@ textarea {
 
 .contact-info-left a {
     display: inline-block;
-    background: #f65024;
+    background: #883333;
     color: #ffffff;
     border-radius: 50%;
     padding: 18px 20px;
@@ -4667,7 +4669,7 @@ textarea {
 }
 
 .contact-info-left a:hover {
-    color: #00715d !important;
+    color: #DBA058 !important;
 }
 
 .contact-info-right a {
@@ -5473,7 +5475,7 @@ donate
     font-family: "Yeseva One";
     font-size: 22px;
     color: #25283a;
-    border-bottom: 2px solid #f65024;
+    border-bottom: 2px solid #DBA058;
 }
 
 .nav-tabs li {

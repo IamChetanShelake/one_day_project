@@ -108,9 +108,9 @@ class WebsiteController extends Controller
         return view('website.gallery');
     }
 
-    public function donate()
+    public function donor()
     {
-        return view('website.donate');
+        return view('website.donor');
     }
 
     public function contact()
